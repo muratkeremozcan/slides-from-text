@@ -1,0 +1,16 @@
+[project]
+name = "slides-from-text"
+version = "0.0.0"
+description = "Tests for the slides-from-text skill and its PPTX generator"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8", "python-pptx>=1", "pyyaml>=6"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

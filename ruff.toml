@@ -1,0 +1,10 @@
+line-length = 120
+target-version = "py311"
+# The skill script declares requires-python >=3.10 in its inline metadata.
+per-file-target-version = { "skills/**/*.py" = "py310" }
+
+[lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[lint.isort]
+known-first-party = ["generate_pptx"]

@@ -1,0 +1,27 @@
+{
+  "title": "Fixture Deck",
+  "subtitle": "Round-trip fixture for generate_pptx.py",
+  "footer": "test fixture",
+  "slides": [
+    {
+      "type": "content",
+      "headline": "The pilot finished early. The results hold.",
+      "body": ["Sample A: 40% → 52%, check FAIL → PASS.", "", "7 entries added to the list."],
+      "note": "Numbers from the fixture run."
+    },
+    {
+      "type": "two_col",
+      "headline": "This headline is long enough to cross the sixty character step-down threshold",
+      "left_title": "Before",
+      "left": ["one queue serves every request"],
+      "right_title": "After",
+      "right": ["each region gets its own queue"]
+    },
+    {
+      "type": "table",
+      "headline": "Owners and dates",
+      "headers": ["Action", "Owner", "Date"],
+      "rows": [["draft the outline", "alex", "2030-01-07"], ["review the draft", "sam", "2030-01-08"]]
+    }
+  ]
+}
